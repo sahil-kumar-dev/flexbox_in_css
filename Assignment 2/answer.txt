@@ -1,0 +1,11 @@
+Answer: 
+
+1. Justify-contenet - Justify contenet property is used in flexbox layout model to position the element in the main axis. Value of Justify-contenet are space around, space between, space evenly, between etc.
+
+2. Align-items- This property is used to align the items in the cross axis. Properties of align items are center, flex end , flex start etc.
+
+3. gap- This property is used to used to set the gap between two element in x and y axis.
+
+4. Flex-direction- It is used to set the direction of the flex box in the column or row. some properties are column, row , row reverse, column reverse.
+
+5. Flex-wrap- It is used to wrap the elements of flex box when the screen size decreses.
