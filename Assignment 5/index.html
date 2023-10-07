@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/9153f1b16d.js" crossorigin="anonymous"></script>
 	<title>Document</title>
 </head>
 <style>
@@ -23,9 +24,9 @@
 	
 	.left{
 		width: 100%;
-		/* display: flex;
+		display: flex;
 		align-items: center;
-		justify-content: center; */
+		justify-content: center;
 	}
 
 
@@ -76,11 +77,42 @@
 		color: #333333;
 	}
 
+	.title{
+		margin-top: 3rem;
+	}
+
 	.title span{
 		font-size: 1.4rem;
 		margin-right: 0.5rem;
 		font-weight: 500;
 		color: var(--color);
+	}
+	.head{
+		display: flex;
+		justify-content: space-between;
+	}
+	.lower{
+		display: flex;
+		gap: 25px;
+	}
+	.lower-btn{
+		padding: 5px 10px;
+		background: transparent;
+		border: 2px solid #c1c1c1;
+		border-radius: 3px;
+		font-weight: 500;
+		outline: none;
+	}
+	.other-links{
+		text-align: right;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.upper-span{
+		font-size: 0.8rem;
+		font-weight: 500;
+		color: #727272;
 	}
 	.btn{
 		width: 100%;
@@ -104,25 +136,24 @@
 <body>
 	<div class="left">
 		<div class="container">
-
 			<div class="head">
 				<div class="rail-logo">
-
+					<img src="./assests/logo.png" width="130">
 				</div>
 				<div class="other-links">
 					<div class="upper">
-						<span class="upper-span">
+						<span class="upper-span" >
 							Ask Disha
 						</span>
 						<span class="upper-span">
 							Contact Us
 						</span>
 						<span class="upper-span">
-							Ask 
+							Alerts 
 						</span>
 					</div>
 					<div class="lower">
-						<button class="lower-btn">Login</button>
+						<button class="lower-btn" style="background-color: #fb792b; color: white;">Login</button>
 						<button class="lower-btn">Register</button>
 						<button class="lower-btn">Agent Login</button>
 					</div>
@@ -130,7 +161,7 @@
 			</div>
 
 			<div class="title">
-				<h1>Indian Railways</h1>
+				<h1 style="margin: 1rem 0;">Indian Railways</h1>
 				<span style="--color:#01bb0a ;">Safety</span>
 				<span style="--color:#fb792b;">Security</span>
 				<span style="--color:#213d77;">Punctuality</span>
@@ -151,23 +182,23 @@
 			<div class="choose-station">
 				<div class="station">
 					<div class="logo">
-						j
+						<i class="fa-solid fa-train"></i>
 					</div>
 					<div class="station-details">
-						<small>From</small>
+						<small>From <i class="fa-solid fa-caret-down"></i></small>
 						<h3>Bangalore</h3>
 						<small>KSR - Bangalore</small>
 					</div>
 				</div>
 				<div class="switch-logo">
-					ks
+					<i class="fa-solid fa-arrow-right-arrow-left"></i>
 				</div>
 				<div class="station">
 					<div class="logo">
-						j
+						<i class="fa-solid fa-train"></i>
 					</div>
 					<div class="station-details">
-						<small>To</small>
+						<small>To <i class="fa-solid fa-caret-down"></i></small>
 						<h3>Kasaragod</h3>
 						<small>KSD - Kasaragod</small>
 					</div>
@@ -176,30 +207,30 @@
 			<div class="select-train">
 				<div class="content">
 					<div class="logo">
-						j
+						<i class="fa-solid fa-calendar-days"></i>
 					</div>
 					<div class="detail">
-						<small>Date</small>
+						<small>Date <i class="fa-solid fa-caret-down"></i></small>
 						<h3>01 Aug 23</h3>
 						<small>Tuesday</small>
 					</div>
 				</div>
 				<div class="content">
 					<div class="logo">
-						j
+						<i class="far fa-circle"></i>
 					</div>
 					<div class="detail">
-						<small>Class</small>
+						<small>Class<i class="fa-solid fa-caret-down"></i></small>
 						<h3>3A</h3>
 						<small>AC 3 Tier</small>
 					</div>
 				</div>
 				<div class="content">
 					<div class="logo">
-						j
+						<i class="fas fa-chair"></i>
 					</div>
 					<div class="detail">
-						<small>Seat Type</small>
+						<small>Seat Type<i class="fa-solid fa-caret-down"></i></small>
 						<h3>TATKAL</h3>
 						<small>AC 3 Tier</small>
 					</div>
@@ -213,6 +244,7 @@
 	<div class="right">
 		<img src="./assests/Screenshot 2023-10-07 173154.png" alt="">
 	</div>
+	
 </body>
 
 </html>
